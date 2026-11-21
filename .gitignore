@@ -1,0 +1,5 @@
+.DS_Store
+*.xcuserstate
+xcuserdata/
+__MACOSX/
+GoogleService-Info.plist
