@@ -77,7 +77,3 @@ The upload service is in `UniFInd/Services/CloudinaryService.swift`. Configure t
 - Do not commit credentials, private keys, service-account files, or production secrets.
 - Firestore rules and client-side role checks must not be treated as a substitute for a production security review.
 - Cloudinary's cloud name and unsigned preset are client-side configuration, not secrets. Anyone who can access an unsigned preset may be able to submit uploads, so configure upload limits and rotate or disable the preset if it is exposed or abused.
-
-## License
-
-No license is currently specified. All rights remain with the project authors unless a license is added.
